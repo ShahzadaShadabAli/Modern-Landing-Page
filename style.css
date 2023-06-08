@@ -1,0 +1,385 @@
+*{padding: 0%;
+  margin: 0%;
+}
+.main {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 85vh;
+}
+.header {
+    width: 100%;
+    height: 15%;
+    background-color: black;
+}
+.left {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border: solid red;
+    border-radius: 50%;
+    border-width: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-image: url("./images/downloadm.jpg");
+    background-size: cover;
+}
+.mid{
+    width: 40%;
+    height: 80%;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left:28% ;
+    top: -100%;
+}
+.right {
+    width: 100px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+   left: 88%;
+}
+button{
+    color: #fff;
+    width: 110px;
+    height: 45px;
+    background-color: red;
+    border-color: red;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+button:hover{
+    color: red;
+    width: 110px;
+    height: 45px;
+    background-color: white;
+    border-color: red;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+ 
+ul{
+    display: inline-flex;
+    margin-right: 20px;
+    margin-top: 20px;
+ 
+}
+.home{
+    color: red;
+}
+li{
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.data {
+    background-color: rgb(0, 0, 0);
+    height: 70vh;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25px;
+    position: absolute;
+}
+.head {
+    font-size: 55px;
+    display: block;
+}
+.hash{
+    display: block;
+    color: red;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.lorem {
+    color: rgb(182, 182, 177);
+    padding-bottom: 20px;
+}
+.icon {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: solid red;
+    border-width: 2px;
+    padding: 0%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.icon1 {
+    background-color: rgb(0, 0, 0);
+    background-image:url(".images/pexels-rovenimagescom-949587.jpg");
+    background-size: cover;
+}
+.icon2{
+    background-color: rgb(0, 0, 0);
+    background-image: url("./images/t.jpg");
+    background-size: cover;
+} 
+.icon3{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-image: url("./images/s.jpg");
+}
+.icon4{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-image: url("./images/t.jpg");
+}
+.btn{
+    color: #fff;
+    width: 130px;
+    height: 45px;
+    background-color: red;
+    border-color: red;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn:hover{
+    color: red;
+    width: 130px;
+    height: 45px;
+    background-color: white
+    border-color: red;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pic{
+    background-color: rgb(0, 0, 0);
+    height: 60vh;
+    background-image: url("../images/fabian-albert-iiPOd73iCUQ-unsplash.jpg");
+    background-size: 137%;
+    width: 35%;
+    position: relative;
+    left: 52%;
+    top: 4%;
+}
+hr{
+    background-color: black;
+    height: 0%;
+}
+.menu{
+    display: none;
+}
+.menuu{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .all{
+        width: 85.5%;
+        background-color: black;
+        height: 100vh;
+       position: relative;
+       bottom: 20px;
+    }
+    .main {
+        background-color: black;
+        color: #fff;
+        width: 85.5%;
+        height: 88vh;
+    }
+    .header {
+        width: 85.5%;
+        height: 12%;
+        background-color: black;
+        
+    }
+    .left {
+        width: 60px;
+        height: 60px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        border: solid red;
+        border-radius: 50%;
+        border-width: 3px;
+        background-image: url("../images/downloadm.jpg");
+        background-size: cover;
+        display: inline;
+    }
+    .mid{
+        width: 00%;
+        height: 80%;
+        margin-top: 20px;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        right: 10%;
+        top: 90%;
+       
+    }
+    .right {
+        width: 90px;
+        height: 45px;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        left: 30vh;
+    }
+    button{
+        color: #fff;
+        width: 110px;
+        height: 45px;
+        background-color: red;
+        border-color: red;
+        border-radius: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        right: 0%;
+        left: 0%;
+        bottom: 17%;
+    }
+    button:hover{
+        color: red;
+        width: 110px;
+        height: 45px;
+        background-color: white;
+        border-color: red;
+        border-radius: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
+    .menu{
+      display:block;
+      position: relative;
+      top: 10px;
+    }
+    .menuu{
+display: block;
+position: relative;
+      top: 50px;
+      background-color: aqua;
+    }
+    ul{
+    position: relative;
+    right: 70px;
+     
+    }
+    li:active{
+        color: red;
+    }
+    li{
+        padding: 7px;
+        color: #fff;
+        font-family:;
+        font-weight: bold;
+        list-style-type: none;
+        font-size: 17px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .data {
+        background-color: rgb(0, 0, 0);
+        height: 70vh;
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 25px;
+        position: absolute;
+    }
+    .head {
+        font-size: 35px;
+        display: block;
+    }
+    .hash{
+        display: block;
+        color: red;
+        position: relative;
+        bottom: 2%;
+    }
+    .lorem {
+        color: rgb(182, 182, 177);
+        position: relative;
+        top: 3%;
+    }
+    .icon {
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        border: solid red;
+        border-width: 2px;
+        padding: 0%;
+        border-radius: 50px;
+        margin-top: 10px;
+        position: relative;
+        top:3%;
+    }
+    .icon1 {
+        background-color: rgb(0, 0, 0);
+        background-image:url("../Photography/images/pexels-rovenimagescom-949587.jpg");
+        background-size: cover;
+    }
+    .icon2{
+        background-color: rgb(0, 0, 0);
+        background-image: url("../Photography/images/t.jpg");
+        background-size: cover;
+    } 
+    .icon3{
+        background-color: rgb(0, 0, 0);
+        background-size: cover;
+        background-image: url("../Photography/images/s.jpg");
+    }
+    .icon4{
+        background-color: rgb(0, 0, 0);
+        background-size: cover;
+        background-image: url("../Photography/images/t.jpg");
+    }
+    .btn{
+        color: #fff;
+        width: 130px;
+        height: 45px;
+        background-color: red;
+        border-color: red;
+        border-radius: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        top:.1%;
+        left: %;
+    }
+    .btn:hover{
+        color: red;
+        width: 130px;
+        height: 45px;
+        background-color: white;
+        border-color: red;
+        border-radius: 7px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        top:.5%;
+        
+    }
+    .user{
+        position: relative;
+        top:2.5%;
+    }
+    .pic{
+        height: 0vh;
+        background-size: none;
+        
+        position: relative;
+        left: 52%;
+        top: 4%;
+    }
+    
+}
